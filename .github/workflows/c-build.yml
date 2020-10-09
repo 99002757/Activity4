@@ -12,5 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: compilation
-    - run: gcc function.c project_main.c -o main.out
-        ./main.out
+      run: gcc function.c project_main.c -o main.out
+    - name: execution
+      run: ./main.out
+    
