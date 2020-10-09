@@ -14,4 +14,4 @@ jobs:
     - name: Compilation
       run: gcc -o result function.h function.c project_main.c
     - name: Execution
-      run: ./result.out
+      run: ./result
